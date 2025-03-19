@@ -1,10 +1,10 @@
 const mysql = require("mysql2/promise");
 
 const pool = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "1234",
-  database: "quiz_app",
+  host: "database-1.c1sgyyk6emqx.ap-south-1.rds.amazonaws.com",
+  user: "admin",
+  password: "sreenu123",
+  database: "newschema",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
